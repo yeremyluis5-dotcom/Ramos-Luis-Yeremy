@@ -1,4 +1,4 @@
-options(repos = c(CRAN = "https://cloud.r-project.org"))
+
 
 library(rsconnect)
 library(treemapify)
@@ -713,9 +713,3 @@ server <- function(input, output) {
 
 shinyApp(ui = ui, server = server)
 
-options(repos = c(CRAN = "https://cloud.r-project.org"))
-rsconnect::setAccountInfo(name='yernomyy',
-                          token='38A0123E5326249C6CD9E2E3F9B0B6A8',
-                          secret='GUP9gykNmTPd1O/8ZB/m2Y6yjLldE6qWBCkptkOy')
-
-rsconnect::deployApp("C:/Users/Administrador/Documents/Dashboard_Yeremy", appName = "dashboard_huancayo_v2")
