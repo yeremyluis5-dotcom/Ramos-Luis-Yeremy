@@ -14,7 +14,7 @@ library(DT)
 library(plotly)
 library(rsconnect)
 
-
+#Cambiar la ruta de acceso en caso no detecte la base de datos
 huancayo <- read_spss("huancayo2022.sav")
 
 
